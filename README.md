@@ -3,4 +3,4 @@ Two Boxes in 12 different formats for comparison
 
 ---
 
-![/scene](/scene)
+![scene](scene)
