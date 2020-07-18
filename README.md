@@ -4,7 +4,7 @@ Two Boxes in 12 different formats for comparison
 
 ---
 
-Size in bytes (less is better):
+Size in bytes. Highlighted "best" solutions (less is better):
 
 ![Chart](Chart.png)
 
