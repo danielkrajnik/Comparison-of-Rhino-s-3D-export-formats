@@ -29,3 +29,7 @@ Table:
 Rhino Render:
 
 ![scene](scene.png)
+
+---
+# Thoughts on that 
+SAT even though the largest is at the moment the only viable solution for Rhino-Revit workflow.
