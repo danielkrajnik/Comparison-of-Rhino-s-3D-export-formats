@@ -1,7 +1,10 @@
 # Comparison of Rhino's 3D export formats
-
+ 
 Two Boxes in 12 different formats for comparison
 
+---
+
+Size in bytes (less is better):
 
 ![Chart](Chart.png)
 
