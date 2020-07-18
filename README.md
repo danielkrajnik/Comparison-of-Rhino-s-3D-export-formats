@@ -5,8 +5,8 @@ Two Boxes in 12 different formats for comparison
 |Format|Size                         |isText|canImportBack                                |isPolysurface|isMesh|Setting              |
 |------|-----------------------------|------|---------------------------------------------|-------------|------|---------------------|
 |STL   |1284 B                       |no    |yes                                          |no           |yes   |Binary               |
-|3DS   |2254 B                       |no    |yes                                          |no           |yes   |0                    |
-|RIB   |4353 B                       |yes   |no                                           |no           |yes   |0                    |
+|3DS   |2254 B                       |no    |yes                                          |no           |yes   |Default              |
+|RIB   |4353 B                       |yes   |no                                           |no           |yes   |Default              |
 |STL   |5502 B                       |yes   |yes                                          |no           |yes   |Ascii                |
 |XAML  |5179 B                       |yes   |no                                           |no           |yes   |Default              |
 |SKP   |8873 B                       |no    |yes                                          |no           |yes   |SketchUp 2013        |
