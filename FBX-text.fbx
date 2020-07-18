@@ -1,0 +1,785 @@
+; FBX 7.5.0 project file
+; ----------------------------------------------------
+
+FBXHeaderExtension:  {
+	FBXHeaderVersion: 1003
+	FBXVersion: 7500
+	CreationTimeStamp:  {
+		Version: 1000
+		Year: 2020
+		Month: 5
+		Day: 4
+		Hour: 0
+		Minute: 24
+		Second: 10
+		Millisecond: 697
+	}
+	Creator: "FBX SDK/FBX Plugins version 2019.2"
+	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
+		Type: "UserData"
+		Version: 100
+		MetaData:  {
+			Version: 100
+			Title: ""
+			Subject: ""
+			Author: ""
+			Keywords: ""
+			Revision: ""
+			Comment: ""
+		}
+		Properties70:  {
+			P: "DocumentUrl", "KString", "Url", "", "C:\Users\DAN_AR~1\Desktop\UNTITL~1.FBX"
+			P: "SrcDocumentUrl", "KString", "Url", "", "C:\Users\DAN_AR~1\Desktop\UNTITL~1.FBX"
+			P: "Original", "Compound", "", ""
+			P: "Original|ApplicationVendor", "KString", "", "", ""
+			P: "Original|ApplicationName", "KString", "", "", ""
+			P: "Original|ApplicationVersion", "KString", "", "", ""
+			P: "Original|DateTime_GMT", "DateTime", "", "", ""
+			P: "Original|FileName", "KString", "", "", ""
+			P: "LastSaved", "Compound", "", ""
+			P: "LastSaved|ApplicationVendor", "KString", "", "", ""
+			P: "LastSaved|ApplicationName", "KString", "", "", ""
+			P: "LastSaved|ApplicationVersion", "KString", "", "", ""
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", ""
+		}
+	}
+}
+GlobalSettings:  {
+	Version: 1000
+	Properties70:  {
+		P: "UpAxis", "int", "Integer", "",2
+		P: "UpAxisSign", "int", "Integer", "",1
+		P: "FrontAxis", "int", "Integer", "",1
+		P: "FrontAxisSign", "int", "Integer", "",-1
+		P: "CoordAxis", "int", "Integer", "",0
+		P: "CoordAxisSign", "int", "Integer", "",1
+		P: "OriginalUpAxis", "int", "Integer", "",-1
+		P: "OriginalUpAxisSign", "int", "Integer", "",1
+		P: "UnitScaleFactor", "double", "Number", "",0.1
+		P: "OriginalUnitScaleFactor", "double", "Number", "",1
+		P: "AmbientColor", "ColorRGB", "Color", "",0,0,0
+		P: "DefaultCamera", "KString", "", "", "Perspective"
+		P: "TimeMode", "enum", "", "",0
+		P: "TimeProtocol", "enum", "", "",2
+		P: "SnapOnFrameMode", "enum", "", "",0
+		P: "TimeSpanStart", "KTime", "Time", "",0
+		P: "TimeSpanStop", "KTime", "Time", "",46186158000
+		P: "CustomFrameRate", "double", "Number", "",-1
+		P: "TimeMarker", "Compound", "", ""
+		P: "CurrentTimeMarker", "int", "Integer", "",-1
+	}
+}
+
+; Documents Description
+;------------------------------------------------------------------
+
+Documents:  {
+	Count: 1
+	Document: 1983959916400, "", "Scene" {
+		Properties70:  {
+			P: "SourceObject", "object", "", ""
+			P: "ActiveAnimStackName", "KString", "", "", ""
+		}
+		RootNode: 0
+	}
+}
+
+; Document References
+;------------------------------------------------------------------
+
+References:  {
+}
+
+; Object definitions
+;------------------------------------------------------------------
+
+Definitions:  {
+	Version: 100
+	Count: 35
+	ObjectType: "GlobalSettings" {
+		Count: 1
+	}
+	ObjectType: "Model" {
+		Count: 17
+		PropertyTemplate: "FbxNode" {
+			Properties70:  {
+				P: "QuaternionInterpolate", "enum", "", "",0
+				P: "RotationOffset", "Vector3D", "Vector", "",0,0,0
+				P: "RotationPivot", "Vector3D", "Vector", "",0,0,0
+				P: "ScalingOffset", "Vector3D", "Vector", "",0,0,0
+				P: "ScalingPivot", "Vector3D", "Vector", "",0,0,0
+				P: "TranslationActive", "bool", "", "",0
+				P: "TranslationMin", "Vector3D", "Vector", "",0,0,0
+				P: "TranslationMax", "Vector3D", "Vector", "",0,0,0
+				P: "TranslationMinX", "bool", "", "",0
+				P: "TranslationMinY", "bool", "", "",0
+				P: "TranslationMinZ", "bool", "", "",0
+				P: "TranslationMaxX", "bool", "", "",0
+				P: "TranslationMaxY", "bool", "", "",0
+				P: "TranslationMaxZ", "bool", "", "",0
+				P: "RotationOrder", "enum", "", "",0
+				P: "RotationSpaceForLimitOnly", "bool", "", "",0
+				P: "RotationStiffnessX", "double", "Number", "",0
+				P: "RotationStiffnessY", "double", "Number", "",0
+				P: "RotationStiffnessZ", "double", "Number", "",0
+				P: "AxisLen", "double", "Number", "",10
+				P: "PreRotation", "Vector3D", "Vector", "",0,0,0
+				P: "PostRotation", "Vector3D", "Vector", "",0,0,0
+				P: "RotationActive", "bool", "", "",0
+				P: "RotationMin", "Vector3D", "Vector", "",0,0,0
+				P: "RotationMax", "Vector3D", "Vector", "",0,0,0
+				P: "RotationMinX", "bool", "", "",0
+				P: "RotationMinY", "bool", "", "",0
+				P: "RotationMinZ", "bool", "", "",0
+				P: "RotationMaxX", "bool", "", "",0
+				P: "RotationMaxY", "bool", "", "",0
+				P: "RotationMaxZ", "bool", "", "",0
+				P: "InheritType", "enum", "", "",0
+				P: "ScalingActive", "bool", "", "",0
+				P: "ScalingMin", "Vector3D", "Vector", "",0,0,0
+				P: "ScalingMax", "Vector3D", "Vector", "",1,1,1
+				P: "ScalingMinX", "bool", "", "",0
+				P: "ScalingMinY", "bool", "", "",0
+				P: "ScalingMinZ", "bool", "", "",0
+				P: "ScalingMaxX", "bool", "", "",0
+				P: "ScalingMaxY", "bool", "", "",0
+				P: "ScalingMaxZ", "bool", "", "",0
+				P: "GeometricTranslation", "Vector3D", "Vector", "",0,0,0
+				P: "GeometricRotation", "Vector3D", "Vector", "",0,0,0
+				P: "GeometricScaling", "Vector3D", "Vector", "",1,1,1
+				P: "MinDampRangeX", "double", "Number", "",0
+				P: "MinDampRangeY", "double", "Number", "",0
+				P: "MinDampRangeZ", "double", "Number", "",0
+				P: "MaxDampRangeX", "double", "Number", "",0
+				P: "MaxDampRangeY", "double", "Number", "",0
+				P: "MaxDampRangeZ", "double", "Number", "",0
+				P: "MinDampStrengthX", "double", "Number", "",0
+				P: "MinDampStrengthY", "double", "Number", "",0
+				P: "MinDampStrengthZ", "double", "Number", "",0
+				P: "MaxDampStrengthX", "double", "Number", "",0
+				P: "MaxDampStrengthY", "double", "Number", "",0
+				P: "MaxDampStrengthZ", "double", "Number", "",0
+				P: "PreferedAngleX", "double", "Number", "",0
+				P: "PreferedAngleY", "double", "Number", "",0
+				P: "PreferedAngleZ", "double", "Number", "",0
+				P: "LookAtProperty", "object", "", ""
+				P: "UpVectorProperty", "object", "", ""
+				P: "Show", "bool", "", "",1
+				P: "NegativePercentShapeSupport", "bool", "", "",1
+				P: "DefaultAttributeIndex", "int", "Integer", "",-1
+				P: "Freeze", "bool", "", "",0
+				P: "LODBox", "bool", "", "",0
+				P: "Lcl Translation", "Lcl Translation", "", "A",0,0,0
+				P: "Lcl Rotation", "Lcl Rotation", "", "A",0,0,0
+				P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+				P: "Visibility", "Visibility", "", "A",1
+				P: "Visibility Inheritance", "Visibility Inheritance", "", "",1
+			}
+		}
+	}
+	ObjectType: "NodeAttribute" {
+		Count: 5
+		PropertyTemplate: "FbxNull" {
+			Properties70:  {
+				P: "Color", "ColorRGB", "Color", "",0.8,0.8,0.8
+				P: "Size", "double", "Number", "",100
+				P: "Look", "enum", "", "",1
+			}
+		}
+	}
+	ObjectType: "Geometry" {
+		Count: 12
+		PropertyTemplate: "FbxNurbsSurface" {
+			Properties70:  {
+				P: "Color", "ColorRGB", "Color", "",0.8,0.8,0.8
+				P: "BBoxMin", "Vector3D", "Vector", "",0,0,0
+				P: "BBoxMax", "Vector3D", "Vector", "",0,0,0
+				P: "Primary Visibility", "bool", "", "",1
+				P: "Casts Shadows", "bool", "", "",1
+				P: "Receive Shadows", "bool", "", "",1
+			}
+		}
+	}
+}
+
+; Object properties
+;------------------------------------------------------------------
+
+Objects:  {
+	NodeAttribute: 1983951740928, "NodeAttribute::Default", "Null" {
+		TypeFlags: "Null"
+	}
+	Geometry: 1983949568112, "Geometry::", "NurbsSurface" {
+		Type: "NurbsSurface"
+		NurbsSurfaceVersion: 100
+		SurfaceDisplay: 4,0,0
+		NurbsSurfaceOrder: 2,2
+		Dimensions: 2,2
+		Step: 0,0
+		Form: "Open", "Open"
+		Points: *16 {
+			a: 12.5142290123655,-19.5021632821375,0,1,24.1425884756601,-19.5021632821375,0,1,12.5142290123655,-19.5021632821375,9.67708547842308,1,24.1425884756601,-19.5021632821375,9.67708547842308,1
+		} 
+		KnotVectorU: *4 {
+			a: 0,0,11.6283594632945,11.6283594632945
+		} 
+		KnotVectorV: *4 {
+			a: 0,0,9.67708547842308,9.67708547842308
+		} 
+		GeometryVersion: 124
+		FlipNormals: 0
+	}
+	Geometry: 1983949560048, "Geometry::", "NurbsSurface" {
+		Type: "NurbsSurface"
+		NurbsSurfaceVersion: 100
+		SurfaceDisplay: 4,0,0
+		NurbsSurfaceOrder: 2,2
+		Dimensions: 2,2
+		Step: 0,0
+		Form: "Open", "Open"
+		Points: *16 {
+			a: 24.1425884756601,-19.5021632821375,0,1,24.1425884756601,3.23063126087053,0,1,24.1425884756601,-19.5021632821375,9.67708547842308,1,24.1425884756601,3.23063126087053,9.67708547842308,1
+		} 
+		KnotVectorU: *4 {
+			a: 11.6283594632945,11.6283594632945,34.3611540063025,34.3611540063025
+		} 
+		KnotVectorV: *4 {
+			a: 0,0,9.67708547842308,9.67708547842308
+		} 
+		GeometryVersion: 124
+		FlipNormals: 0
+	}
+	Geometry: 1983949568880, "Geometry::", "NurbsSurface" {
+		Type: "NurbsSurface"
+		NurbsSurfaceVersion: 100
+		SurfaceDisplay: 4,0,0
+		NurbsSurfaceOrder: 2,2
+		Dimensions: 2,2
+		Step: 0,0
+		Form: "Open", "Open"
+		Points: *16 {
+			a: 24.1425884756601,3.23063126087053,0,1,12.5142290123655,3.23063126087053,0,1,24.1425884756601,3.23063126087053,9.67708547842308,1,12.5142290123655,3.23063126087053,9.67708547842308,1
+		} 
+		KnotVectorU: *4 {
+			a: 34.3611540063025,34.3611540063025,45.989513469597,45.989513469597
+		} 
+		KnotVectorV: *4 {
+			a: 0,0,9.67708547842308,9.67708547842308
+		} 
+		GeometryVersion: 124
+		FlipNormals: 0
+	}
+	Geometry: 1983949558128, "Geometry::", "NurbsSurface" {
+		Type: "NurbsSurface"
+		NurbsSurfaceVersion: 100
+		SurfaceDisplay: 4,0,0
+		NurbsSurfaceOrder: 2,2
+		Dimensions: 2,2
+		Step: 0,0
+		Form: "Open", "Open"
+		Points: *16 {
+			a: 12.5142290123655,3.23063126087053,0,1,12.5142290123655,-19.5021632821375,0,1,12.5142290123655,3.23063126087053,9.67708547842308,1,12.5142290123655,-19.5021632821375,9.67708547842308,1
+		} 
+		KnotVectorU: *4 {
+			a: 45.989513469597,45.989513469597,68.722308012605,68.722308012605
+		} 
+		KnotVectorV: *4 {
+			a: 0,0,9.67708547842308,9.67708547842308
+		} 
+		GeometryVersion: 124
+		FlipNormals: 0
+	}
+	Geometry: 1983949563888, "Geometry::", "NurbsSurface" {
+		Type: "NurbsSurface"
+		NurbsSurfaceVersion: 100
+		SurfaceDisplay: 4,0,0
+		NurbsSurfaceOrder: 2,2
+		Dimensions: 2,2
+		Step: 0,0
+		Form: "Open", "Open"
+		Points: *16 {
+			a: 12.5142290123655,-19.5021632821375,0,1,24.1425884756601,-19.5021632821375,0,1,12.5142290123655,3.23063126087053,0,1,24.1425884756601,3.23063126087053,0,1
+		} 
+		KnotVectorU: *4 {
+			a: 0,0,11.6283594632945,11.6283594632945
+		} 
+		KnotVectorV: *4 {
+			a: 0,0,22.732794543008,22.732794543008
+		} 
+		GeometryVersion: 124
+		FlipNormals: 0
+	}
+	Geometry: 1983949569264, "Geometry::", "NurbsSurface" {
+		Type: "NurbsSurface"
+		NurbsSurfaceVersion: 100
+		SurfaceDisplay: 4,0,0
+		NurbsSurfaceOrder: 2,2
+		Dimensions: 2,2
+		Step: 0,0
+		Form: "Open", "Open"
+		Points: *16 {
+			a: 12.5142290123655,-19.5021632821375,9.67708547842308,1,24.1425884756601,-19.5021632821375,9.67708547842308,1,12.5142290123655,3.23063126087053,9.67708547842308,1,24.1425884756601,3.23063126087053,9.67708547842308,1
+		} 
+		KnotVectorU: *4 {
+			a: 0,0,11.6283594632945,11.6283594632945
+		} 
+		KnotVectorV: *4 {
+			a: 0,0,22.732794543008,22.732794543008
+		} 
+		GeometryVersion: 124
+		FlipNormals: 0
+	}
+	Geometry: 1983949565040, "Geometry::", "NurbsSurface" {
+		Type: "NurbsSurface"
+		NurbsSurfaceVersion: 100
+		SurfaceDisplay: 4,0,0
+		NurbsSurfaceOrder: 2,2
+		Dimensions: 2,2
+		Step: 0,0
+		Form: "Open", "Open"
+		Points: *16 {
+			a: -31.487729501557,0,0,1,0,0,0,1,-31.487729501557,0,12.2810716416839,1,0,0,12.2810716416839,1
+		} 
+		KnotVectorU: *4 {
+			a: 0,0,31.487729501557,31.487729501557
+		} 
+		KnotVectorV: *4 {
+			a: 0,0,12.2810716416839,12.2810716416839
+		} 
+		GeometryVersion: 124
+		FlipNormals: 0
+	}
+	Geometry: 1983949566960, "Geometry::", "NurbsSurface" {
+		Type: "NurbsSurface"
+		NurbsSurfaceVersion: 100
+		SurfaceDisplay: 4,0,0
+		NurbsSurfaceOrder: 2,2
+		Dimensions: 2,2
+		Step: 0,0
+		Form: "Open", "Open"
+		Points: *16 {
+			a: 0,0,0,1,0,20.7027763936853,0,1,0,0,12.2810716416839,1,0,20.7027763936853,12.2810716416839,1
+		} 
+		KnotVectorU: *4 {
+			a: 31.487729501557,31.487729501557,52.1905058952423,52.1905058952423
+		} 
+		KnotVectorV: *4 {
+			a: 0,0,12.2810716416839,12.2810716416839
+		} 
+		GeometryVersion: 124
+		FlipNormals: 0
+	}
+	Geometry: 1983949555056, "Geometry::", "NurbsSurface" {
+		Type: "NurbsSurface"
+		NurbsSurfaceVersion: 100
+		SurfaceDisplay: 4,0,0
+		NurbsSurfaceOrder: 2,2
+		Dimensions: 2,2
+		Step: 0,0
+		Form: "Open", "Open"
+		Points: *16 {
+			a: 0,20.7027763936853,0,1,-31.487729501557,20.7027763936853,0,1,0,20.7027763936853,12.2810716416839,1,-31.487729501557,20.7027763936853,12.2810716416839,1
+		} 
+		KnotVectorU: *4 {
+			a: 52.1905058952423,52.1905058952423,83.6782353967993,83.6782353967993
+		} 
+		KnotVectorV: *4 {
+			a: 0,0,12.2810716416839,12.2810716416839
+		} 
+		GeometryVersion: 124
+		FlipNormals: 0
+	}
+	Geometry: 1983949557744, "Geometry::", "NurbsSurface" {
+		Type: "NurbsSurface"
+		NurbsSurfaceVersion: 100
+		SurfaceDisplay: 4,0,0
+		NurbsSurfaceOrder: 2,2
+		Dimensions: 2,2
+		Step: 0,0
+		Form: "Open", "Open"
+		Points: *16 {
+			a: -31.487729501557,20.7027763936853,0,1,-31.487729501557,0,0,1,-31.487729501557,20.7027763936853,12.2810716416839,1,-31.487729501557,0,12.2810716416839,1
+		} 
+		KnotVectorU: *4 {
+			a: 83.6782353967993,83.6782353967993,104.381011790485,104.381011790485
+		} 
+		KnotVectorV: *4 {
+			a: 0,0,12.2810716416839,12.2810716416839
+		} 
+		GeometryVersion: 124
+		FlipNormals: 0
+	}
+	Geometry: 1983949556592, "Geometry::", "NurbsSurface" {
+		Type: "NurbsSurface"
+		NurbsSurfaceVersion: 100
+		SurfaceDisplay: 4,0,0
+		NurbsSurfaceOrder: 2,2
+		Dimensions: 2,2
+		Step: 0,0
+		Form: "Open", "Open"
+		Points: *16 {
+			a: -31.487729501557,0,0,1,0,0,0,1,-31.487729501557,20.7027763936853,0,1,0,20.7027763936853,0,1
+		} 
+		KnotVectorU: *4 {
+			a: 0,0,31.487729501557,31.487729501557
+		} 
+		KnotVectorV: *4 {
+			a: 0,0,20.7027763936853,20.7027763936853
+		} 
+		GeometryVersion: 124
+		FlipNormals: 0
+	}
+	Geometry: 1983949565808, "Geometry::", "NurbsSurface" {
+		Type: "NurbsSurface"
+		NurbsSurfaceVersion: 100
+		SurfaceDisplay: 4,0,0
+		NurbsSurfaceOrder: 2,2
+		Dimensions: 2,2
+		Step: 0,0
+		Form: "Open", "Open"
+		Points: *16 {
+			a: -31.487729501557,0,12.2810716416839,1,0,0,12.2810716416839,1,-31.487729501557,20.7027763936853,12.2810716416839,1,0,20.7027763936853,12.2810716416839,1
+		} 
+		KnotVectorU: *4 {
+			a: 0,0,31.487729501557,31.487729501557
+		} 
+		KnotVectorV: *4 {
+			a: 0,0,20.7027763936853,20.7027763936853
+		} 
+		GeometryVersion: 124
+		FlipNormals: 0
+	}
+	NodeAttribute: 1983764538560, "NodeAttribute::Perspective", "Camera" {
+		Properties70:  {
+			P: "Position", "Vector", "", "A",43.1114947706824,-74.6734897875561,49.7823265250374
+			P: "UpVector", "Vector", "", "A",0,0,1
+		}
+		TypeFlags: "Camera"
+		GeometryVersion: 124
+		Position: 43.1114947706824,-74.6734897875561,49.7823265250374
+		Up: 0,0,1
+		LookAt: 0,0,0
+		ShowInfoOnMoving: 1
+		ShowAudio: 0
+		AudioColor: 0,1,0
+		CameraOrthoZoom: 1
+	}
+	NodeAttribute: 1983764548240, "NodeAttribute::Top", "Camera" {
+		Properties70:  {
+			P: "Position", "Vector", "", "A",0,0,80.2123006609122
+			P: "CameraProjectionType", "enum", "", "",1
+		}
+		TypeFlags: "Camera"
+		GeometryVersion: 124
+		Position: 0,0,80.2123006609122
+		Up: 0,1,0
+		LookAt: 0,0,0
+		ShowInfoOnMoving: 1
+		ShowAudio: 0
+		AudioColor: 0,1,0
+		CameraOrthoZoom: 1
+	}
+	NodeAttribute: 1983299661856, "NodeAttribute::Front", "Camera" {
+		Properties70:  {
+			P: "Position", "Vector", "", "A",0,-80.2123006609122,0
+			P: "UpVector", "Vector", "", "A",0,0,1
+			P: "CameraProjectionType", "enum", "", "",1
+		}
+		TypeFlags: "Camera"
+		GeometryVersion: 124
+		Position: 0,-80.2123006609122,0
+		Up: 0,0,1
+		LookAt: 0,0,0
+		ShowInfoOnMoving: 1
+		ShowAudio: 0
+		AudioColor: 0,1,0
+		CameraOrthoZoom: 1
+	}
+	NodeAttribute: 1984144962640, "NodeAttribute::Right", "Camera" {
+		Properties70:  {
+			P: "Position", "Vector", "", "A",80.2123006609122,0,0
+			P: "UpVector", "Vector", "", "A",0,0,1
+			P: "CameraProjectionType", "enum", "", "",1
+		}
+		TypeFlags: "Camera"
+		GeometryVersion: 124
+		Position: 80.2123006609122,0,0
+		Up: 0,0,1
+		LookAt: 0,0,0
+		ShowInfoOnMoving: 1
+		ShowAudio: 0
+		AudioColor: 0,1,0
+		CameraOrthoZoom: 1
+	}
+	Model: 1983946134464, "Model::Default", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 1983946140464, "Model::Object_1", "NurbsSurface" {
+		Version: 232
+		Properties70:  {
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 1983946150464, "Model::Object_1", "NurbsSurface" {
+		Version: 232
+		Properties70:  {
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 1983946138464, "Model::Object_1", "NurbsSurface" {
+		Version: 232
+		Properties70:  {
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 1983946144464, "Model::Object_1", "NurbsSurface" {
+		Version: 232
+		Properties70:  {
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 1983295033216, "Model::Object_1", "NurbsSurface" {
+		Version: 232
+		Properties70:  {
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 1983296262320, "Model::Object_1", "NurbsSurface" {
+		Version: 232
+		Properties70:  {
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 1984145374608, "Model::Object_2", "NurbsSurface" {
+		Version: 232
+		Properties70:  {
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 1984145380608, "Model::Object_2", "NurbsSurface" {
+		Version: 232
+		Properties70:  {
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 1984145368608, "Model::Object_2", "NurbsSurface" {
+		Version: 232
+		Properties70:  {
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 1984145370608, "Model::Object_2", "NurbsSurface" {
+		Version: 232
+		Properties70:  {
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 1984145366608, "Model::Object_2", "NurbsSurface" {
+		Version: 232
+		Properties70:  {
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 1984145372608, "Model::Object_2", "NurbsSurface" {
+		Version: 232
+		Properties70:  {
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 1984145376608, "Model::Perspective", "Camera" {
+		Version: 232
+		Properties70:  {
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",43.1114947706824,-74.6734897875561,49.7823265250374
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 1984145378608, "Model::Top", "Camera" {
+		Version: 232
+		Properties70:  {
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",0,0,80.2123006609122
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 1983955294128, "Model::Front", "Camera" {
+		Version: 232
+		Properties70:  {
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",0,-80.2123006609122,0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 1983955288128, "Model::Right", "Camera" {
+		Version: 232
+		Properties70:  {
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",80.2123006609122,0,0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+}
+
+; Object connections
+;------------------------------------------------------------------
+
+Connections:  {
+	
+	;Model::Default, Model::RootNode
+	C: "OO",1983946134464,0
+	
+	;Model::Perspective, Model::RootNode
+	C: "OO",1984145376608,0
+	
+	;Model::Top, Model::RootNode
+	C: "OO",1984145378608,0
+	
+	;Model::Front, Model::RootNode
+	C: "OO",1983955294128,0
+	
+	;Model::Right, Model::RootNode
+	C: "OO",1983955288128,0
+	
+	;NodeAttribute::Default, Model::Default
+	C: "OO",1983951740928,1983946134464
+	
+	;Model::Object_1, Model::Default
+	C: "OO",1983946140464,1983946134464
+	
+	;Model::Object_1, Model::Default
+	C: "OO",1983946150464,1983946134464
+	
+	;Model::Object_1, Model::Default
+	C: "OO",1983946138464,1983946134464
+	
+	;Model::Object_1, Model::Default
+	C: "OO",1983946144464,1983946134464
+	
+	;Model::Object_1, Model::Default
+	C: "OO",1983295033216,1983946134464
+	
+	;Model::Object_1, Model::Default
+	C: "OO",1983296262320,1983946134464
+	
+	;Model::Object_2, Model::Default
+	C: "OO",1984145374608,1983946134464
+	
+	;Model::Object_2, Model::Default
+	C: "OO",1984145380608,1983946134464
+	
+	;Model::Object_2, Model::Default
+	C: "OO",1984145368608,1983946134464
+	
+	;Model::Object_2, Model::Default
+	C: "OO",1984145370608,1983946134464
+	
+	;Model::Object_2, Model::Default
+	C: "OO",1984145366608,1983946134464
+	
+	;Model::Object_2, Model::Default
+	C: "OO",1984145372608,1983946134464
+	
+	;Geometry::, Model::Object_1
+	C: "OO",1983949568112,1983946140464
+	
+	;Geometry::, Model::Object_1
+	C: "OO",1983949560048,1983946150464
+	
+	;Geometry::, Model::Object_1
+	C: "OO",1983949568880,1983946138464
+	
+	;Geometry::, Model::Object_1
+	C: "OO",1983949558128,1983946144464
+	
+	;Geometry::, Model::Object_1
+	C: "OO",1983949563888,1983295033216
+	
+	;Geometry::, Model::Object_1
+	C: "OO",1983949569264,1983296262320
+	
+	;Geometry::, Model::Object_2
+	C: "OO",1983949565040,1984145374608
+	
+	;Geometry::, Model::Object_2
+	C: "OO",1983949566960,1984145380608
+	
+	;Geometry::, Model::Object_2
+	C: "OO",1983949555056,1984145368608
+	
+	;Geometry::, Model::Object_2
+	C: "OO",1983949557744,1984145370608
+	
+	;Geometry::, Model::Object_2
+	C: "OO",1983949556592,1984145366608
+	
+	;Geometry::, Model::Object_2
+	C: "OO",1983949565808,1984145372608
+	
+	;NodeAttribute::Perspective, Model::Perspective
+	C: "OO",1983764538560,1984145376608
+	
+	;NodeAttribute::Top, Model::Top
+	C: "OO",1983764548240,1984145378608
+	
+	;NodeAttribute::Front, Model::Front
+	C: "OO",1983299661856,1983955294128
+	
+	;NodeAttribute::Right, Model::Right
+	C: "OO",1984144962640,1983955288128
+}
+;Takes section
+;----------------------------------------------------
+
+Takes:  {
+	Current: ""
+}

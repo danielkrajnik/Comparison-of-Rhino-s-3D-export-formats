@@ -1,0 +1,97 @@
+##RenderMan RIB-Structure 1.1
+##Scene C:\Users\dan_archi\Desktop\Untitled.rib
+##Creator Rhinoceros Feb 27 2019
+##Frames 1
+##CapabilitiesNeeded TrimCurves
+
+FrameBegin 1
+  Display "U" "file" "rgba"
+  ScreenWindow -2.02985 2.02985 -1 1
+  Clipping 64.2762 136.513
+  Format 1496 737 1
+  Projection "perspective" "fov" [ 26.9915 ]
+  Transform [ 0.866032 -0.249996 -0.433002 0.0 0.499989 0.433018 0.750004 0.0 -2.77556e-17 0.866024 -0.500003 0.0 1.38174e-15 7.10543e-15 99.5641 1.0 ]
+  Option "searchpath" "texture" "&:C:/Program Files/Rhino 6/Plug-ins/"
+  Option "searchpath" "shader" "&:C:/Program Files/Rhino 6/Plug-ins/"
+  Option "searchpath" "archive" "&:C:/Program Files/Rhino 6/Plug-ins/"
+  Declare "bgcolor" "color"
+  Imager "rh_background" "bgcolor" [ 1 1 1 ]
+
+  WorldBegin
+    Declare "intensity" "float"
+    Declare "lightcolor" "color"
+    Declare "from" "point"
+    Declare "to" "point"
+    Declare "intensity" "float"
+    Declare "lightcolor" "color"
+    Declare "from" "point"
+    Declare "to" "point"
+    LightSource "distantlight" 1 "intensity" [ 1 ] "lightcolor" [ 1 1 1 ] "from" [ 43.1115 -74.6735 49.7823 ] "to" [ -0.188505 0.32651 -0.217673 ]
+
+    AttributeBegin
+      Attribute "identifier" "name" [""]
+      Color [ 0.980392 0.980392 0.980392 ]
+      Opacity [ 1 1 1 ]
+      SolidBegin "primitive"
+        AttributeBegin
+          TextureCoordinates [ 0 1 1 1 0 0 1 0 ]
+          NuPatch 2 2 [ 0 0 1 1 ] 0 1 2 2 [ 0 0 1 1 ] 0 1 "P" [ 12.5142 -19.5022 0 24.1426 -19.5022 0 12.5142 -19.5022 9.67709 24.1426 -19.5022 9.67709 ]
+        AttributeEnd
+        AttributeBegin
+          TextureCoordinates [ 0 1 1 1 0 0 1 0 ]
+          NuPatch 2 2 [ 0 0 1 1 ] 0 1 2 2 [ 0 0 1 1 ] 0 1 "P" [ 24.1426 -19.5022 0 24.1426 3.23063 0 24.1426 -19.5022 9.67709 24.1426 3.23063 9.67709 ]
+        AttributeEnd
+        AttributeBegin
+          TextureCoordinates [ 0 1 1 1 0 0 1 0 ]
+          NuPatch 2 2 [ 0 0 1 1 ] 0 1 2 2 [ 0 0 1 1 ] 0 1 "P" [ 24.1426 3.23063 0 12.5142 3.23063 0 24.1426 3.23063 9.67709 12.5142 3.23063 9.67709 ]
+        AttributeEnd
+        AttributeBegin
+          TextureCoordinates [ 0 1 1 1 0 0 1 0 ]
+          NuPatch 2 2 [ 0 0 1 1 ] 0 1 2 2 [ 0 0 1 1 ] 0 1 "P" [ 12.5142 3.23063 0 12.5142 -19.5022 0 12.5142 3.23063 9.67709 12.5142 -19.5022 9.67709 ]
+        AttributeEnd
+        AttributeBegin
+          TextureCoordinates [ 0 1 1 1 0 0 1 0 ]
+          NuPatch 2 2 [ 0 0 1 1 ] 0 1 2 2 [ 0 0 1 1 ] 0 1 "P" [ 12.5142 -19.5022 0 24.1426 -19.5022 0 12.5142 3.23063 0 24.1426 3.23063 0 ]
+        AttributeEnd
+        AttributeBegin
+          TextureCoordinates [ 0 1 1 1 0 0 1 0 ]
+          NuPatch 2 2 [ 0 0 1 1 ] 0 1 2 2 [ 0 0 1 1 ] 0 1 "P" [ 12.5142 -19.5022 9.67709 24.1426 -19.5022 9.67709 12.5142 3.23063 9.67709 24.1426 3.23063 9.67709 ]
+        AttributeEnd
+      SolidEnd
+    AttributeEnd
+
+    AttributeBegin
+      Attribute "identifier" "name" [""]
+      Color [ 0.980392 0.980392 0.980392 ]
+      Opacity [ 1 1 1 ]
+      SolidBegin "primitive"
+        AttributeBegin
+          TextureCoordinates [ 0 1 1 1 0 0 1 0 ]
+          NuPatch 2 2 [ 0 0 1 1 ] 0 1 2 2 [ 0 0 1 1 ] 0 1 "P" [ -31.4877 0 0 0 0 0 -31.4877 0 12.2811 0 0 12.2811 ]
+        AttributeEnd
+        AttributeBegin
+          TextureCoordinates [ 0 1 1 1 0 0 1 0 ]
+          NuPatch 2 2 [ 0 0 1 1 ] 0 1 2 2 [ 0 0 1 1 ] 0 1 "P" [ 0 0 0 0 20.7028 0 0 0 12.2811 0 20.7028 12.2811 ]
+        AttributeEnd
+        AttributeBegin
+          TextureCoordinates [ 0 1 1 1 0 0 1 0 ]
+          NuPatch 2 2 [ 0 0 1 1 ] 0 1 2 2 [ 0 0 1 1 ] 0 1 "P" [ 0 20.7028 0 -31.4877 20.7028 0 0 20.7028 12.2811 -31.4877 20.7028 12.2811 ]
+        AttributeEnd
+        AttributeBegin
+          TextureCoordinates [ 0 1 1 1 0 0 1 0 ]
+          NuPatch 2 2 [ 0 0 1 1 ] 0 1 2 2 [ 0 0 1 1 ] 0 1 "P" [ -31.4877 20.7028 0 -31.4877 0 0 -31.4877 20.7028 12.2811 -31.4877 0 12.2811 ]
+        AttributeEnd
+        AttributeBegin
+          TextureCoordinates [ 0 1 1 1 0 0 1 0 ]
+          NuPatch 2 2 [ 0 0 1 1 ] 0 1 2 2 [ 0 0 1 1 ] 0 1 "P" [ -31.4877 0 0 0 0 0 -31.4877 20.7028 0 0 20.7028 0 ]
+        AttributeEnd
+        AttributeBegin
+          TextureCoordinates [ 0 1 1 1 0 0 1 0 ]
+          NuPatch 2 2 [ 0 0 1 1 ] 0 1 2 2 [ 0 0 1 1 ] 0 1 "P" [ -31.4877 0 12.2811 0 0 12.2811 -31.4877 20.7028 12.2811 0 20.7028 12.2811 ]
+        AttributeEnd
+      SolidEnd
+    AttributeEnd
+
+  WorldEnd
+
+FrameEnd

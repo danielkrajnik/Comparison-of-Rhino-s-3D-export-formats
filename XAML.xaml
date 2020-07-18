@@ -1,0 +1,62 @@
+<Page Background="sc#0 1 1 1" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Viewport3D>
+    <Viewport3D.Camera>
+      <PerspectiveCamera x:Name="Cam" FieldOfView="51.9473702213278" Position="43.1114947706824,-74.6734897875561,49.7823265250374" LookDirection="-43.3,75,-50" UpDirection="0,0,1" />
+    </Viewport3D.Camera>
+    <Viewport3D.Children>
+      <ModelVisual3D>
+        <ModelVisual3D.Content>
+          <Model3DGroup>
+            <DirectionalLight Color="sc#1 1 1 1" Direction="-43.3,75,-50" />
+          </Model3DGroup>
+        </ModelVisual3D.Content>
+      </ModelVisual3D>
+      <ModelVisual3D>
+        <ModelVisual3D>
+          <ModelVisual3D.Content>
+            <Model3DGroup>
+              <GeometryModel3D>
+                <GeometryModel3D.Material>
+                  <MaterialGroup>
+                    <DiffuseMaterial>
+                      <DiffuseMaterial.Brush>
+                        <SolidColorBrush Color="#FAFAFA" />
+                      </DiffuseMaterial.Brush>
+                    </DiffuseMaterial>
+                    <EmissiveMaterial>
+                      <EmissiveMaterial.Brush>
+                        <SolidColorBrush Color="#000000" />
+                      </EmissiveMaterial.Brush>
+                    </EmissiveMaterial>
+                  </MaterialGroup>
+                </GeometryModel3D.Material>
+                <GeometryModel3D.Geometry>
+                  <MeshGeometry3D Positions="12.51423,-19.50216,0 12.51423,-19.50216,9.677086 24.14259,-19.50216,0 24.14259,-19.50216,9.677086 24.14259,-19.50216,0 24.14259,-19.50216,9.677086 24.14259,3.230631,0 24.14259,3.230631,9.677086 24.14259,3.230631,0 24.14259,3.230631,9.677086 12.51423,3.230631,0 12.51423,3.230631,9.677086 12.51423,3.230631,0 12.51423,3.230631,9.677086 12.51423,-19.50216,0 12.51423,-19.50216,9.677086 12.51423,-19.50216,0 24.14259,-19.50216,0 24.14259,3.230631,0 12.51423,3.230631,0 12.51423,-19.50216,9.677086 24.14259,-19.50216,9.677086 24.14259,3.230631,9.677086 12.51423,3.230631,9.677086" Normals="0,-1,0 0,-1,0 0,-1,0 0,-1,0 1,0,0 1,0,0 1,0,0 1,0,0 0,1,0 0,1,0 0,1,0 0,1,0 -1,0,0 -1,0,0 -1,0,0 -1,0,0 0,0,-1 0,0,-1 0,0,-1 0,0,-1 0,0,1 0,0,1 0,0,1 0,0,1" TextureCoordinates="0,1 0,0.353083193302155 0.16920793056488,1 0.16920793056488,0.353083193302155 0.16920793056488,1 0.16920793056488,0.353083193302155 0.5,1 0.5,0.353083193302155 0.5,1 0.5,0.353083193302155 0.66920793056488,1 0.66920793056488,0.353083193302155 0.66920793056488,1 0.66920793056488,0.353083193302155 0,1 0,0.353083193302155 0.33079206943512,1 0.33079206943512,0.353082537651062 0,0.353082537651062 0,1 0,0.353082537651062 0,1 0.66920793056488,1 0.66920793056488,0.353082537651062" TriangleIndices="0,2,3 4,6,7 8,10,11 12,14,15 17,16,19 19,18,17 21,23,20 23,21,22 0,3,1 4,7,5 8,11,9 12,15,13" />
+                </GeometryModel3D.Geometry>
+              </GeometryModel3D>
+              <GeometryModel3D>
+                <GeometryModel3D.Material>
+                  <MaterialGroup>
+                    <DiffuseMaterial>
+                      <DiffuseMaterial.Brush>
+                        <SolidColorBrush Color="#FAFAFA" />
+                      </DiffuseMaterial.Brush>
+                    </DiffuseMaterial>
+                    <EmissiveMaterial>
+                      <EmissiveMaterial.Brush>
+                        <SolidColorBrush Color="#000000" />
+                      </EmissiveMaterial.Brush>
+                    </EmissiveMaterial>
+                  </MaterialGroup>
+                </GeometryModel3D.Material>
+                <GeometryModel3D.Geometry>
+                  <MeshGeometry3D Positions="-31.48773,0,0 -31.48773,0,12.28107 0,0,0 0,0,12.28107 0,0,0 0,0,12.28107 0,20.70278,0 0,20.70278,12.28107 0,20.70278,0 0,20.70278,12.28107 -31.48773,20.70278,0 -31.48773,20.70278,12.28107 -31.48773,20.70278,0 -31.48773,20.70278,12.28107 -31.48773,0,0 -31.48773,0,12.28107 -31.48773,0,0 0,0,0 0,20.70278,0 -31.48773,20.70278,0 -31.48773,0,12.28107 0,0,12.28107 0,20.70278,12.28107 -31.48773,20.70278,12.28107" Normals="0,-1,0 0,-1,0 0,-1,0 0,-1,0 1,0,0 1,0,0 1,0,0 1,0,0 0,1,0 0,1,0 0,1,0 0,1,0 -1,0,0 -1,0,0 -1,0,0 -1,0,0 0,0,-1 0,0,-1 0,0,-1 0,0,-1 0,0,1 0,0,1 0,0,1 0,0,1" TextureCoordinates="0,1 0,0.385622978210449 0.301661461591721,1 0.301661461591721,0.385622978210449 0.301661461591721,1 0.301661461591721,0.385622978210449 0.5,1 0.5,0.385622978210449 0.5,1 0.5,0.385622978210449 0.801661491394043,1 0.801661491394043,0.385622978210449 0.801661491394043,1 0.801661491394043,0.385622978210449 0,1 0,0.385622978210449 0,1 0.301661461591721,1 0.301661461591721,0.385622382164001 0,0.385622382164001 0.698338508605957,0.385622382164001 0,0.385622382164001 0,1 0.698338508605957,1" TriangleIndices="0,2,3 4,6,7 8,10,11 12,14,15 17,16,19 19,18,17 21,23,20 23,21,22 0,3,1 4,7,5 8,11,9 12,15,13" />
+                </GeometryModel3D.Geometry>
+              </GeometryModel3D>
+            </Model3DGroup>
+          </ModelVisual3D.Content>
+        </ModelVisual3D>
+      </ModelVisual3D>
+    </Viewport3D.Children>
+  </Viewport3D>
+</Page>
