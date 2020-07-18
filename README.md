@@ -8,7 +8,6 @@ Size in bytes. Highlighted "best" solutions (less is better):
 
 ![Chart](Chart.png)
 
-
 Table:
 
 |Format|Size                         |isText|canImportBack                                |isPolysurface|isMesh|Setting              |
@@ -26,10 +25,6 @@ Table:
 |DWG   |32128 B                      |no    |yes                                          |yes          |no    |Solids               |
 |FBX   |36128 B                      |no    |yes                                          |no           |no    |v7 binary            |
 |SAT   |37671 B                      |yes   |no                                           |yes          |no    |Default              |
-
-
-
-
 
 Rhino Render:
 
