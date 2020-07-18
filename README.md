@@ -9,6 +9,8 @@ Size in bytes. Highlighted "best" solutions (less is better):
 ![Chart](Chart.png)
 
 
+Table:
+
 |Format|Size                         |isText|canImportBack                                |isPolysurface|isMesh|Setting              |
 |------|-----------------------------|------|---------------------------------------------|-------------|------|---------------------|
 |STL   |1284 B                       |no    |yes                                          |no           |yes   |Binary               |
@@ -28,4 +30,5 @@ Size in bytes. Highlighted "best" solutions (less is better):
 
 
 Scene:
+
 ![scene](scene.png)
