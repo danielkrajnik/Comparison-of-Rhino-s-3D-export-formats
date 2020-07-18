@@ -4,13 +4,13 @@ Two Boxes in 12 different formats for comparison
 
 |Format|Size                         |isText|canImportBack                                |isPolysurface|isMesh|Setting              |
 |------|-----------------------------|------|---------------------------------------------|-------------|------|---------------------|
-|STL-binary|1284 B                       |no    |yes                                          |no           |yes   |Binary               |
+|STL   |1284 B                       |no    |yes                                          |no           |yes   |Binary               |
 |3DS   |2254 B                       |no    |yes                                          |no           |yes   |0                    |
 |RIB   |4353 B                       |yes   |no                                           |no           |yes   |0                    |
-|STL-ASCII|5502 B                       |yes   |yes                                          |no           |yes   |Ascii                |
+|STL   |5502 B                       |yes   |yes                                          |no           |yes   |Ascii                |
 |XAML  |5179 B                       |yes   |no                                           |no           |yes   |Default              |
 |SKP   |8873 B                       |no    |yes                                          |no           |yes   |SketchUp 2013        |
-|IGS-Default|11316 B                      |yes   |yes                                          |no           |no    |Default              |
+|IGS   |11316 B                      |yes   |yes                                          |no           |no    |Default              |
 |STP   |16511 B                      |yes   |yes                                          |yes          |no    |AP214AutomotiveDesign|
 |FBX   |22846 B                      |yes   |yes                                          |no           |no    |v7 ascii             |
 |3DM   |25966 B                      |no    |yes                                          |yes          |no    |Default              |
