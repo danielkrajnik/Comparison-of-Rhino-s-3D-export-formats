@@ -1,6 +1,7 @@
 # Comparison-of-Rhino-s-3D-export-formats
 
 Two Boxes in 12 different formats for comparison
+
 ---
 
 
@@ -20,7 +21,7 @@ Two Boxes in 12 different formats for comparison
 |FBX   |36128 B                      |no    |yes                                          |no           |no    |v7 binary            |
 |SAT   |37671 B                      |yes   |no                                           |yes          |no    |Default              |
 
----
+
 
 Scene:
 ![scene](scene.png)
