@@ -1,2 +1,6 @@
 # Comparison-of-Rhino-s-3D-export-formats
-Simple NURBS 3D shapes in 12 different formats for comparison (from Rhino)
+Two Boxes in 12 different formats for comparison
+
+---
+
+![/scene](/scene)
