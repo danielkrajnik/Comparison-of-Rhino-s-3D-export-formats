@@ -1,6 +1,8 @@
 # Comparison of Rhino's 3D export formats
  
-Two Boxes in 12 different formats for comparison
+File size comparison of 12 formats on two simple Rhino extrusions
+
+Even though ACIS SAT came out as the largest format is at the moment the only viable solution for Rhino-Revit workflow. It is recommended to use it in BIM workflows for accurate display and graphics. However, it does come at a cost of file size as shown above.
 
 ---
 
@@ -29,7 +31,3 @@ Table:
 Rhino Render:
 
 ![scene](scene.png)
-
----
-## Thoughts on the results
-Even though ACIS SAT came out as the largest format is at the moment the only viable solution for Rhino-Revit workflow. It is recommended to use it in BIM workflows for accurate display and graphics. However, it does come at a cost of file size as shown above.
