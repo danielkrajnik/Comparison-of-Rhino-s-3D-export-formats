@@ -6,7 +6,7 @@ Even though ACIS SAT came out as the largest format is at the moment the only vi
 
 ---
 
-Size in bytes. Highlighted optimal solutions for Rhino-Revit workflows (less is better):
+Size in bytes. Highlighted optimal solutions for Rhino-Revit workflows:
 
 ![Chart](Chart.png)
 
